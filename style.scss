@@ -1,0 +1,104 @@
+$font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$width: 300px;
+$height: 220px;
+$border-radius: 3%;
+$box-shadow: 0px 15px 15px #999;
+$text-align: center;
+$aligne-items: center;
+$font-size-xl: x-large;
+$font-size-s: small;
+$background-color-box:rgb(248, 247, 188);
+
+.body {
+    background-color: rgb(254, 254, 254);            
+    justify-content: center;
+    align-items: center;   
+    font-family:$font-family;
+    display:flex;    
+    flex-direction: column;    
+    transform: scale(0.8);
+}
+
+.container{
+   width: 300;
+   justify-content: center;
+   align-items: $aligne-items; 
+   font-family: $font-family;
+   display:flex;    
+   flex-direction: column;    
+   transform: scale(0.8);
+}
+
+.container__box1 {
+    font-size: $font-size-xl;
+    color: gray;
+}
+
+.container__box2 {
+    font-size: $font-size-xl;
+    color: black;
+}
+
+.container__box3 {
+    font-size: $font-size-s;
+    color: gray;
+}
+
+.container__box4 {
+    font-size: $font-size-s;
+    color: gray;
+}
+
+.container1 {
+    justify-content: center;
+    align-items: center; 
+    font-family: $font-family;
+    display:flex;    
+    flex-direction: arrow;  
+    gap:20px;  
+    transform: scale(0.8);
+}
+
+.container__box__left {
+    border-top: 4px solid rgb(60, 91, 245);
+    background-color: $background-color-box;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    text-align: $text-align;
+    align-items: $aligne-items;
+}
+
+.container__box__center-up {
+    border-top: 4px solid rgb(192, 23, 23);
+    background-color: $background-color-box;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    text-align: $text-align;
+    align-items: $aligne-items;
+}
+
+.container__box__center-down {
+    border-top: 4px solid rgb(222, 216, 42);
+    background-color: $background-color-box;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    text-align: $text-align;
+    align-items: $aligne-items;
+}
+
+.container__box__right {
+    border-top: 4px solid rgb(3, 17, 88);
+    background-color: $background-color-box;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    text-align: $text-align;
+    align-items: $aligne-items;
+}
